@@ -7,11 +7,9 @@
 #include <numeric>
 #include "Curves.h"
 
-
 using namespace std;
 
 double genDouble(int minValMul100, int maxValMul100) {
-	
 	return double(minValMul100 + rand() % (maxValMul100 - minValMul100 + 1)) / 100.;
 }
 
